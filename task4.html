@@ -8,34 +8,67 @@
 </head>
 <body class="task2-page">
     <header class="site-header">
-        <h1>My Web Technology Tasks</h1>
+        <h1>Task 4</h1>
     </header>
-
     <nav class="navigation">
         <a href="index.html">Task 1</a>
         <a href="task2.html">Task 2</a>
         <a href="task3.html">Task 3</a>
         <a href="task4.html">Task 4</a>
     </nav>
+            <h2 id="fields">Academic Performance</h2>
+            <table class="task4-table">
+                <caption id="performance-title">Student Academic Performance</caption>
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Grade</th>
+                        <th>Semester</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Web Technology</td>
+                        <td>A</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Programming</td>
+                        <td>A-</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Database Systems</td>
+                        <td>B+</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" , class="highlight-row">Average result</td>
+                        <td>A-</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2 id="form">Feedback Form</h2>
+            <form class="task4-form" action="#" method="post">
+                <label for="student-name">Name</label>
+                <input type="text" id="student-name" name="student-name" required>
+                <label for="student-email">Email</label>
+                <input type="email" id="student-email" name="student-email" required>
+                <label for="student-role">Your role</label>
+                <select id="student-role" name="student-role">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="guest">Guest</option>
+                </select>
+                <span class="task4-label">Did you like this assignment?</span>
+                <label class="task4-radio"><input type="radio" name="recommendation" value="yes" required> Yes</label>
+                <label class="task4-radio"><input type="radio" name="recommendation" value="no"> No</label>
 
-    <div class="columns">
-        <div class="side-menu">
-            <h2>Side Menu</h2>
-            <ul>
-                <li><a href="#form">Form</a></li>
-                <li><a href="#fields">Fields</a></li>
-                <li><a href="#contacts">Contacts</a></li>
-            </ul>
-        </div>
+                <label for="feedback-message">Message</label>
+                <textarea id="feedback-message" name="feedback-message" rows="5"></textarea>
 
-        <aside class="main-content">
-            <h2>About Task 4</h2>
-            <p>This page is prepared for the fourth task. The navigation links connect all pages of the assignment.</p>
-        </aside>
-
-        <div class="clear-fix"></div>
-    </div>
-
+                <button type="submit" disabled>Send feedback</button>
+            </form>
     <footer class="site-footer">
         <p>&copy;Damir Kusmagambetov</p>
     </footer>

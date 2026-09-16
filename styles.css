@@ -162,7 +162,7 @@ a:hover {
     margin: 0;
     padding: 16px;
     background-color: #f1f4e1;
-    font-family: "Merriweather", Georgia, "Times New Roman", serif;
+    font-family: Georgia, "Times New Roman", serif;
     font-size: 14px;
     line-height: 1.3;
 }
@@ -205,15 +205,92 @@ a:hover {
     display: inline-block;
     margin-top: 12px;
     padding: 7px 7px;
-    background-color: #b6532f;
+    background-color: #008000;
     color: #ffffff;
     text-decoration: none;
-    border: 2px solid #8c3d26;
+    border: 2px solid #008000;
     border-radius: 6px;
 }
 .learn-more:hover {
     background-color: #174a70;
     color: #ffffff;
     text-decoration: none;
+}
+
+/*Task 4 */
+.task4-table {
+    width: 100%;
+    margin: 16px 0 28px;
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+.task4-table caption {
+    margin-bottom: 8px;
+    color: #174a70;
+    font-size: 18px;
+    font-weight: bold;
+}
+.task4-table th,
+.task4-table td {
+    padding: 10px;
+    border: 1px solid #9dbac5;
+    text-align: left;
+}
+.task4-table th {
+    background-color: #d6e5eb;
+    color: #164c63;
+}
+.task4-table tbody tr:nth-child(even) {
+    background-color: #f1f4e1;
+}
+.task4-table .highlight-row {
+    background-color: #54ba68;
+    font-weight: bold;
+}
+.task4-form {
+    max-width: 520px;
+    margin: 16px auto;
+    padding: 20px;
+    background-color: #f8fbfc;
+    border: 1px solid #b7cbd3;
+    box-shadow: 3px 3px 0 #b7cbd3;
+}
+.task4-form label,
+.task4-label {
+    display: block;
+    margin: 12px 0 5px;
+    color: #245b73;
+    font-weight: bold;
+}
+.task4-form input[type="text"],
+.task4-form input[type="email"],
+.task4-form select,
+.task4-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    border: 1px solid #9dbac5;
+    font: inherit;
+}
+.task4-form .task4-radio {
+    display: inline-block;
+    margin: 0 18px 8px 0;
+    font-weight: normal;
+}
+.task4-form .task4-radio input {
+    margin-right: 5px;
+}
+.task4-form button {
+    margin-top: 14px;
+    padding: 9px 18px;
+    border: 1px solid #008000;
+    background-color: #008000;
+    color: #ffffff;
+    font: inherit;
+    font-weight: bold;
+    cursor: pointer;
+}
+.task4-form button:hover {
+    background-color: #174a70;
 }
 
