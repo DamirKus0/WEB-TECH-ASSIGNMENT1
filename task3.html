@@ -3,38 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task 3 - Lists</title>
+    <title>Task 3 - Norman Foster Tribute</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body class="task3-page">
     <header class="site-header">
-        <h1>My Web Technology Tasks</h1>
+        <h1>Task 3: Norman Foster Tribute</h1>
     </header>
-
     <nav class="navigation">
         <a href="index.html">Task 1</a>
         <a href="task2.html">Task 2</a>
         <a href="task3.html">Task 3</a>
         <a href="task4.html">Task 4</a>
     </nav>
-
-    <div class="columns">
-        <div class="side-menu">
-            <h2>Side Menu</h2>
+    <main class="tribute-card">
+        <img class="tribute-image" src="https://commons.wikimedia.org/wiki/Special:FilePath/Norman%20Foster%20Berlin%202012.jpg" alt="Portrait of Norman Foster">
+        <div class="tribute-content">
+            <h1>Norman Foster</h1>
+            <h2>1935 - present</h2>
+            <p>Norman Foster is a British architect known for his modern and high-tech buildings. He founded Foster + Partners and designed projects in many countries. His work combines technology, practical design, and respect for the surrounding city. Foster has made an important contribution to contemporary architecture.</p>
+            <h2 id="dates">Important dates</h2>
+            <ol>
+                <li>1935 - Norman Foster was born in Manchester, England.</li>
+                <li>1961 - He completed his studies at Yale University.</li>
+                <li>1967 - Foster Associates was founded.</li>
+                <li>1990 - He received a knighthood for his contribution to architecture.</li>
+                <li>1999 - He was awarded the Pritzker Architecture Prize.</li>
+            </ol>
+            <h2 id="achievements">Main achievements</h2>
             <ul>
-                <li><a href="#lists">Lists</a></li>
-                <li><a href="#examples">Examples</a></li>
-                <li><a href="#contacts">Contacts</a></li>
+                <li>Designed the Khan Shatyr is a stylish tent-shaped entertainment center in Astana. </li>
+                <li>Created the modern Reichstag dome in Berlin.</li>
+                <li>Designed the Millau Viaduct in France.</li>
+                <li>Developed sustainable and energy-efficient architectural solutions.</li>
             </ul>
+            <a class="learn-more" href="https://en.wikipedia.org/wiki/Norman_Foster,_Baron_Foster_of_Thames_Bank" target="_blank" rel="noopener noreferrer">Learn more</a>
         </div>
-
-        <aside class="main-content">
-            <h2>About Task 3</h2>
-            <p>This page is prepared for the third task. It uses the same navigation and simple page structure as the other assignment pages.</p>
-        </aside>
-
-        <div class="clear-fix"></div>
-    </div>
+    </main>
 
     <footer class="site-footer">
         <p>&copy;Damir Kusmagambetov</p>
